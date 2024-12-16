@@ -4,6 +4,7 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 
 import Accordian from "./components/accordian";
+import RandomColor from "./components/random-color";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -12,6 +13,9 @@ function App() {
     <div className="App">
       {/* Accordian component */}
       <Accordian />
+
+      {/* Random Color component} */}
+      <RandomColor />
     </div>
   );
 }
